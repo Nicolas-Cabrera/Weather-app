@@ -6,6 +6,7 @@ export default function Output(props) {
         <div>
             <div>
                 <h1>{props.city}, {props.country}</h1>
+                <img src={} alt='weathericon' />
                 <h2>{props.tempCelcius}&deg;</h2>
                 {
                     minmaxTemp(props.tempMin, props.tempMax)
